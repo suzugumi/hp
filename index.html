@@ -6,28 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>練習用</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-    .glo-nav {
+    .logo {
         float: left;
     }
     
-    .glo-nav li {
+    .global-nav {
+        float: right;
+    }
+    
+    .global-nav li {
         display: inline-block;
     }
 </style>
 
 <body>
-    <header></header>
-    <nav class="glo-nav">
-        <ul id="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">LINK</a></li>
-            <li><a href="#">DDDD</a></li>
-        </ul>
-    </nav>
-    <img src="images/すずきステッカー.PNG" alt="">
+    <header class="header cf">
+        <h1 class="logo"><img src="images/logo.png" alt=""></h1>
+        <nav class="global-nav">
+            <ul>
+                <li class="here"><a href="#" class="nav-img">HOME</a></li>
+                <li><a href="#" class="nav-img">SHOP</a></li>
+                <li><a href="#" class="nav-img">LINK</a></li>
+                <li><a href="#" class="nav-img">DDDD</a></li>
+                <li><a href="#" class="nav-img">DDDD</a></li>
+                <li><a href="#" class="nav-img">DDDD</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
